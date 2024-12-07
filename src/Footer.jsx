@@ -5,15 +5,15 @@ function Footer() {
         <>
 <footer>
         <nav>
-          <ul>
-            <li><a href="https://www.example1.com">Home</a></li>
-            <li><a href="https://www.example1.com">Women's</a></li>
-            <li><a href="https://www.example2.com">Men's</a></li>
-            <li><a href="https://www.example3.com">On the Street</a></li>
-            <li><a href="https://www.example4.com">The Catwalk</a></li>
-            <li><a href="https://www.example4.com">AdWatch</a></li>
-            <li><a href="https://www.example4.com">About</a></li>
-            <li><a href="https://www.example2.com">Tips</a></li>
+          <ul araia-label="Footer Navigation" role="navigation" class="footer-nav" id="footer">
+            <li class="nav-footer"><a class="nav-link navilink" href="https://www.example1.com">Home</a></li>
+            <li class="nav-footer"><a class="nav-link navilink" href="https://www.example2.com">Women's</a></li>
+            <li class="nav-footer"><a class="nav-link navilink" href="https://www.example3.com">Men's</a></li>
+            <li class="nav-footer"><a class="nav-link navilink" href="https://www.example4.com">On the Street</a></li>
+            <li class="nav-footer"><a class="nav-link navilink" href="https://www.example5.com">The Catwalk</a></li>
+            <li class="nav-footer"><a class="nav-link navilink" href="https://www.example6.com">AdWatch</a></li>
+            <li class="nav-footer"><a class="nav-link navilink" href="https://www.example7.com">About</a></li>
+            <li class="nav-footer"><a class="nav-link navilink" href="https://www.example8.com">Tips</a></li>
            
           </ul>
         </nav>
@@ -25,3 +25,4 @@ function Footer() {
 export default function Footer() {
   return <Footer/>;
 }
+

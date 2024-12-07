@@ -12,6 +12,4 @@ function Main() {
     </>
   );
 }
-export default function Main() {
-  return <Main/>;
-}
+export default Main

@@ -12,7 +12,7 @@ function Article() {
           lorem odio auctor mi, nec elementum justo nulla non velit. Nam tincidunt dui vel nulla fermentum, 
           ac tincidunt nunc pretium.
         </p>
-        <img src="C:\Users\tseh\Documents\Perscholas\FashionBlog\src\blog-image-1.jpg" alt="A description of the first blog post's content" />
+        <img src="'https://i.postimg.cc/xCvm1J7L/blog-image-1.jpg'" alt="A description of the first blog post's content" />
       </article>
 
       <article>
@@ -21,7 +21,7 @@ function Article() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus malesuada justo, non 
           bibendum nunc eleifend eget. Phasellus sed erat ut lorem tristique interdum.
         </p>
-        <img src="C:\Users\tseh\Documents\Perscholas\FashionBlog\src\blog-image-2.jpg" alt="A description of the second blog post's content" />
+        <img src="'https://i.postimg.cc/j2R7wq0m/blog-image-2.jpg'" alt="A description of the second blog post's content" />
       </article>
       </>
   );
@@ -31,11 +31,3 @@ export default function Article() {
 }
 
 
-// const imgURL = "https://perscholas.org/wp-content/themes/per-scholas/assets/images/logo1.svg";
-// const alt = "Per Scholas";
-
-// return (
-//   <img
-//     src={imgURL}
-//     alt={alt}
-//   />

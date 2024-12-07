@@ -28,21 +28,23 @@ html {
     color: lightgray;
     text-decoration: none;
   }
-  
-  footer .footer-nav ul {
+
+  footer .footer-nav .footer ul {
     padding: 0;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    text-align: right;
   }
   
-  footer .footer-nav a {
+  footer .footer-nav #nav-link a  {
     color: tomato;
+    display: flex;
     text-decoration: none;
   }
   
 
-  h1 {
+  .nav-link  h1 {
     color: tomato;
   }
   

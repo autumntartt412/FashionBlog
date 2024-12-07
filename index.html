@@ -1,57 +1,100 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-    <link rel="stylesheet" href="./src/.index.css">
+
+    <head>
+      <meta charset="UTF-8" />
+      <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous"
+      />
+      <title>React</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet"
+      />
+  
+      <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <main>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-
-    <header>
-      <nav>
-        <ul>
-          <li><a href="https://www.example1.com">Women's</a></li>
-          <li><a href="https://www.example2.com">Men's</a></li>
-          <li><a href="https://www.example3.com">On the Street</a></li>
-          <li><a href="https://www.example4.com">The Catwalk</a></li>
-          <li><a href="https://www.example4.com">AdWatch</a></li>
-          <li><a href="https://www.example4.com">About</a></li>
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <h1 class="nav-link" id="heading">Sartre's List</h1>
+      </li>
+      <li class="nav-item">
+        <h2 class="nav-link" id="subheading" href="#">Better-Dressed People</h2>
+      </li>
+    </ul>
+    <ul araia-label="Main Navigation" role="navigation" class="nav flex-row" id="navigation">
+          <li class="nav-item"> <a class="nav-link navilink" href="https://www.example1.com">Women's</a>
+          <li class="nav-item"><a class="nav-link navilink" href="https://www.example2.com">Men's</a></li>
+          <li class="nav-item"><a class="nav-link navilink" href="https://www.example3.com">On the Street</a></li>
+          <li class="nav-item"><a class="nav-link navilink" href="https://www.example4.com">The Catwalk</a></li>
+          <li class="nav-item"><a class="nav-link navilink" href="https://www.example5.com">AdWatch</a></li>
+          <li class="nav-item"><a class="nav-link navilink" href="https://www.example6.com">About</a></li>
         </ul>
-      </nav>
-    </header> 
-    <main> 
+  <section>
+    <ul class="nav flex-column">
       <article>
-        <h2>Blog Post 1</h2>
+        <li class="nav-item">
+          <h2>Blog Post 1</h2>
+        </li>
+        <li class="nav-item">
+          <h1 class="nav-link .lead" id="subheading-bottom" href="#">On the Street in Brooklyn</h1>
+        </li>
+          <ul class="nav flex-column">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut interdum tempor, lorem odio auctor mi, nec elementum justo nulla non velit. Nam tincidunt dui vel nulla fermentum, ac tincidunt nunc pretium.</p>
-        <img src="image1.jpg" alt="Image description for post 1">
+        <img src="https://i.postimg.cc/xCvm1J7L/blog-image-1.jpg" alt="Image description for post 1">
       </article>
-  
+    </ul>
+  </section>
+
+  <section>
+    <ul class="nav flex-column">
       <article>
-        <h2>Blog Post 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus malesuada justo, non bibendum nunc eleifend eget. Phasellus sed erat ut lorem tristique interdum.</p>
-        <img src="image2.jpg" alt="Image description for post 2">
+        <li class="nav-item">
+          <h2>Blog Post 2</h2>
+        </li>
+        <li class="nav-item">
+          <h1 class="nav-link .lead" id="subheading-bottom" href="#">On the Street in Brooklyn</h1>
+        </li>
+          <ul class="nav flex-column">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut interdum tempor, lorem odio auctor mi, nec elementum justo nulla non velit. Nam tincidunt dui vel nulla fermentum, ac tincidunt nunc pretium.</p>
+        <img src="https://i.postimg.cc/j2R7wq0m/blog-image-2.jpg" alt="Image description for post 2">
       </article>
-     
+    </ul>
+  </section>
     </main>
       <footer>
         <nav>
-          <ul>
-            <li><a href="https://www.example1.com">Home</a></li>
-            <li><a href="https://www.example1.com">Women's</a></li>
-            <li><a href="https://www.example2.com">Men's</a></li>
-            <li><a href="https://www.example3.com">On the Street</a></li>
-            <li><a href="https://www.example4.com">The Catwalk</a></li>
-            <li><a href="https://www.example4.com">AdWatch</a></li>
-            <li><a href="https://www.example4.com">About</a></li>
-            <li><a href="https://www.example2.com">Tips</a></li>
-           
+          <ul araia-label="Footer Navigation" role="navigation" class="footerNav" id="footer">
+            <li class="nav-item"><a class="nav-link navilink" href="https://www.example1.com">Home</a>
+            <li class="nav-item"><a class="nav-link navilink" href="https://www.example2.com">Women's</a>
+            <li class="nav-item"><a class="nav-link navilink" href="https://www.example3.com">Men's</a></li>
+            <li class="nav-item"><a class="nav-link navilink" href="https://www.example4.com">On the Street</a></li>
+            <li class="nav-item"><a class="nav-link navilink" href="https://www.example5.com">The Catwalk</a></li>
+            <li class="nav-item"><a class="nav-link navilink" href="https://www.example6.com">AdWatch</a></li>
+            <li class="nav-item"><a class="nav-link navilink" href="https://www.example7.com">About</a></li>
+            <li class="nav-item"> <a class="nav-link navilink" href="https://www.example8.com">Tip</a> 
           </ul>
         </nav>
-        <p>&copy; 2024 Fashion Blog. All rights reserved. FashionBlog.com LLC Request our corporate name & address by email. </p>
-      </footer>
+        <li class="nav-item"> 
+        <p>&copy; 2024 Fashion Blog. All rights reserved. FashionBlog.com LLC Request our corporate name & address by email.</p>
+        </li>
+      </footer>   
+         <!--<script type="module" src="/src/main.jsx"></script>-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous">
+    </script>
   </body>
 </html>
